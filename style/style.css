@@ -8,7 +8,6 @@
     --Light-lavender: hsl(241, 100%, 89%);
     --Light-red: hsl(0, 100%, 67%);
     --Dark-gray-blue: hsl(224, 30%, 27%);
-    --White: hsl(0, 0%, 100%);
 }
 
 body {
@@ -70,7 +69,7 @@ p {
 }
 
 b {
-  color: var(--White);
+  color: black;
     font-size: 1.5rem;
     margin-top: 1rem;
 }
@@ -95,7 +94,7 @@ b {
     gap: 0.8rem;
 }
 .row:nth-child(1) {
-    background-color: hsla(0, 100%, 87%,.2);
+    background-color:purple;
 }
 .badge {
     display: flex;
@@ -120,4 +119,8 @@ b {
 }
 .pic{
   width: 20px;
+}
+.row p b{
+    display: flex;
+    justify-content: end;
 }
