@@ -8,6 +8,9 @@
     --Light-lavender: hsl(241, 100%, 89%);
     --Light-red: hsl(0, 100%, 67%);
     --Dark-gray-blue: hsl(224, 30%, 27%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
 }
 
 body {
@@ -92,6 +95,8 @@ b {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    font-family: "Hanken Grotesk", sans-serif;
+
 }
 .row:nth-child(1) {
     background-color: hsla(0, 100%, 87%,.2);
@@ -101,6 +106,7 @@ b {
     justify-content: space-between;
     padding: 1rem 0.5rem;
     height: 30px;
+
 
 }
 .row:nth-child(2) {
@@ -122,6 +128,7 @@ b {
     padding: 1rem 0.5rem;
     height: 30px;
 
+
 }
 .row:nth-child(4) {
     background-color:hsla(234, 85%, 65%,.2);
@@ -140,6 +147,27 @@ b {
 }
 .row:nth-child(1) .badge b {
     color: var(--Light-red);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.row:nth-child(2) .badge b {
+    color: var(--Orangey-yellow);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.row:nth-child(3) .badge b {
+    color: var(--Green-teal);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.row:nth-child(4) .badge b {
+    color: var(--Cobalt-blue);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .row p {
     color: gray;
@@ -158,6 +186,8 @@ b {
   width: 20px;
 }
 .row p b{
-    display: flex;
     justify-content: end;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
