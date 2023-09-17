@@ -95,6 +95,43 @@ b {
 }
 .row:nth-child(1) {
     background-color:purple;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 30px;
+
+}
+.row:nth-child(2) {
+    background-color:purple;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 30px;
+
+}
+.row:nth-child(3) {
+    background-color:purple;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 30px;
+
+}
+.row:nth-child(4) {
+    background-color:purple;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 30px;
+
 }
 .badge {
     display: flex;
