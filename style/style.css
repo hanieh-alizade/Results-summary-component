@@ -94,7 +94,7 @@ b {
     gap: 0.8rem;
 }
 .row:nth-child(1) {
-    background-color:purple;
+    background-color: hsla(0, 100%, 87%,.2);
     display: flex;
     border-radius: 10px;
     align-items: center;
