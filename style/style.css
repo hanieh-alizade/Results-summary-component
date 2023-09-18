@@ -83,9 +83,16 @@ body {
 }
 
 b {
-  color: black;
+    color: gray;
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+.result b {
+    color: var(--White);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 .info {
     color: var(--Light-lavender);
