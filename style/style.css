@@ -94,9 +94,11 @@ b {
     box-sizing: border-box;
     font-family: "Hanken Grotesk", sans-serif;
 }
-.info {
+.result .info {
     color: var(--Light-lavender);
     width: 200px;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 .summary {
     width: 50%;
@@ -108,6 +110,7 @@ b {
 .summary .title {
     color: black;
     font-weight: 800;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 .rows {
     display: flex;
