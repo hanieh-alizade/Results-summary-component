@@ -62,13 +62,24 @@ body {
 }
 
 
-h1 {
+.circle h1 {
     color: var(--White);
     font-size: 4rem;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    padding: 0;
+    margin: 0;
 }
 
-p {
+.circle p {
   color: var(--White);
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 b {
@@ -150,24 +161,28 @@ b {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-size: 15px;
 }
 .row:nth-child(2) .badge b {
     color: var(--Orangey-yellow);
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-size: 15px;
 }
 .row:nth-child(3) .badge b {
     color: var(--Green-teal);
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-size: 15px;
 }
 .row:nth-child(4) .badge b {
     color: var(--Cobalt-blue);
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-size: 15px;
 }
 .row p {
     color: gray;
@@ -190,4 +205,5 @@ b {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-size: 15px;
 }
